@@ -1,5 +1,0 @@
-D:\Projects\CSharp\halfman\halfman\bin\Debug\halfman.exe
-D:\Projects\CSharp\halfman\halfman\bin\Debug\halfman.pdb
-D:\Projects\CSharp\halfman\halfman\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Projects\CSharp\halfman\halfman\obj\x86\Debug\halfman.exe
-D:\Projects\CSharp\halfman\halfman\obj\x86\Debug\halfman.pdb
