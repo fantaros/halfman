@@ -17,7 +17,8 @@ namespace halfman
 			return buffer.ToArray ();
 		}
 		
-		public static IList<byte> addBit (int index, IList<byte> list, byte value, int bitscount) {
+		public static IList<byte> addBit (int index, IList<byte> list, byte value, int bitscount)
+		{
 			int listoffset = index % 8;
 			int listindex = index - listoffset * 8;
 			if (listoffset >= list.Count) {
@@ -28,12 +29,13 @@ namespace halfman
 			}
 			byte org = list [listoffset];
 			for (int i=0; i<bitscount; ++i) {
-				byte current = value & 1;
-				org = org | current;
-				org = org << 1;
-				value = value >> 1;
+				byte current = (byte)(value & 1);
+				org = (byte)(org | current);
+				org = (byte)(org << 1);
+				value = (byte)(value >> 1);
 			}
 			list [listoffset] = org;
+			return list;
 		}
 		
 		public static IList<byte> addBit (int index, IList<byte> list, byte value) {

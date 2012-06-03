@@ -9,13 +9,13 @@ namespace halfman
         public static byte[] serial(TreeNode root)
         {
             List<byte> buffer = new List<byte>();
-            IDictionary<String,String> tree = root.getAllPairs();
-            foreach (KeyValuePair<String, String> kvp in tree)
+            IDictionary<String,int> tree = root.getAllPairs();
+            foreach (KeyValuePair<String, int> kvp in tree)
             {
                 try
                 {
                     byte b = byte.Parse(kvp.Key);
-                    Bit v = Bit.parse(kvp.Value);
+                    Bit v = Bit.parse(kvp.Value.ToString());
                     buffer.Add(b);
                     buffer.AddRange(v.orginal);
 

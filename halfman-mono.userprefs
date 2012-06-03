@@ -1,8 +1,26 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="halfman\Program.cs">
+    <Files>
+      <File FileName="halfman\HalfManEncoder.cs" Line="60" Column="1" />
+      <File FileName="halfman\Bit.cs" Line="137" Column="1" />
+      <File FileName="halfman\TreeNode.cs" Line="151" Column="1" />
+      <File FileName="halfman\Program.cs" Line="15" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="halfman" expanded="True">
+            <Node name="Program.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\Projects\CSharp\halfman\halfman\HalfManEncoder.cs" line="36" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

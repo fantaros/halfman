@@ -46,6 +46,7 @@
     <Compile Include="TreeNode.cs" />
     <Compile Include="HalfManDecoder.cs" />
     <Compile Include="BitHelper.cs" />
+    <Compile Include="HalfMan.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

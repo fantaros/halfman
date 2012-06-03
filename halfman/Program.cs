@@ -6,10 +6,12 @@ namespace halfman
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("123");
-            Console.ReadKey();
+        public static void Main (string[] args)
+		{
+			byte[] buffer = new byte[]{ 0,1,1,2,2,2,2,3,3,3,3,3,3,3,3};
+			HalfManEncoder en = new HalfManEncoder (buffer);
+			en.encoding ();
+			//Console.ReadKey ();
         }
     }
 }
